@@ -1,0 +1,114 @@
+body {
+	background-color: #fff;
+
+}
+
+#header-logo {
+	width: 130px;
+	height: 40px;
+	padding-left: 30px;
+	display: inline-block;
+	vertical-align: left;
+	position: relative;
+	
+
+}
+
+#slogan {
+	padding-left: 10px;
+	font-size: 9px;
+	font-style: italic;
+
+}
+
+#email-sign-up { 
+	width: 175px;
+	height: 70px;
+	display: block;
+	padding-right: 10px;
+	position: absolute;
+	top: 10px;
+	right: 0%;
+	padding-bottom: 10px;
+	
+}
+
+#banner-image {
+	width: 962px;
+	height: 375px;
+	display: block;
+	margin: 0px auto;
+	vertical-align: middle;
+	border: 1px solid #000000;
+
+}
+
+h1, h2, h3, h4, p {
+	color: #000000;
+	font-family: Helvetica;
+	
+}
+
+a {
+	font-family: Helvetica;
+	text-decoration: none;
+	color: #ffffff;
+
+}
+
+#nav-bar {
+	margin: auto;
+	width: 962px;
+	padding-top: 5px;
+	vertical-align: middle;
+}
+
+button {
+	padding: 10px 20px;
+	border-radius: 4px;
+	width: 157px;
+	text-align: center;
+	display: inline-block;
+	font-size: 14px;
+	border: .5px white;
+}
+
+#nav-first {
+	background-color: #5C4B51;
+}
+#nav-second {
+	background-color: #8CBEB2;	
+}
+#nav-third {
+	background-color: #DBD579;	
+}
+#nav-fourth {
+	background-color: #F3B562;	
+}
+#nav-fifth {
+	background-color: #F06060;	
+}
+#nav-sixth {
+	background-color: #5B605F;	
+}
+
+#ul-available-subjects-li1 {
+	font-family: Helvetica;
+}
+#ul-available-subjects-li2 {
+	font-family: Helvetica;
+}
+
+#ul-available-subjects-li3 {
+	font-family: Helvetica;
+}
+
+#ul-available-subjects-li4 {
+	font-family: Helvetica;
+
+
+#mail-to {
+	font-family: Helvetica;
+	color: #0000ff;
+	text-decoration: underline;
+}
