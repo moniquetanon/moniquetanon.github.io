@@ -1,20 +1,15 @@
 body {
 	background-color: #ffffff;
-
 }
-
 h1, h2, h4, p {
 	color: #000000;
 	font-family: Arial, Verdana, sans-serif;
 }
-
 a {
 	font-family: Arial, Verdana, sans-serif;
 	text-decoration: none;
 	color: #ffffff;
-
 }
-
 button {
 	padding: 10px 24px ;
 	border-radius: 4px;
@@ -23,33 +18,21 @@ button {
 	font-size: 12px;
 	border: 1px white;
 }
-
 #nav-first {
-	background-color: #5C4B51;
-	
+	background-color: #5C4B51;	
 }
-
 #nav-second {
-	background-color: #8CBEB2;
-	
+	background-color: #8CBEB2;	
 }
-
 #nav-third {
-	background-color: #DBD579;
-	
+	background-color: #DBD579;	
 }
-
 #nav-fourth {
-	background-color: #F3B562;
-	
+	background-color: #F3B562;	
 }
-
 #nav-fifth {
-	background-color: #F06060;
-	
+	background-color: #F06060;	
 }
-
 #nav-sixth {
-	background-color: #5B605F;
-	
+	background-color: #5B605F;	
 }

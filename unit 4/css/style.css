@@ -1,0 +1,64 @@
+
+<style>
+@import url('https://fonts.googleapis.com/css?family=Roboto|Taviraj');
+</style>
+body {
+	background-color: #ffffff;
+}
+.logo {
+	width: 20%;
+	display: block;
+	padding:	10px 0px 0px 10px;	
+}
+.slogan {
+	display: block;
+	padding: 0px 0px 10px 41px;
+	font-family: palatino, georgia, serif;
+	font-size: 10px;
+}
+.nav-ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+.nav-li {
+	display: inline-block;
+}
+.nav-li a {
+	display: block;
+	padding: 10.5px;	
+	text-decoration: none;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 15.5px;
+	color: ffffff;	
+}
+.main-image {
+	width: 100%;
+	display: block;
+	margin: 0px auto;
+	vertical-align: middle;
+	border: 1px solid #000000;
+}
+.h1-studentservices, .h1-relatedlinks, .h1-contactus {
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	margin: 2em;
+}
+.studentservices a, .relatedlinks a, contactus a {
+	text-decoration: none;
+	font-family: 'Taviraj', serif;
+	font-size: 18px;
+	line-height: 1.5em;
+}
+.studentservices-section, .relatedlinks-section, .contactus-section {
+	padding: 8px 15px 8px 15px;	
+}
+p {
+	font-family: 'Taviraj', serif;
+	font-size: 18px;
+	line-height: 1.5em;
+	margin: 2em;
+}
+
