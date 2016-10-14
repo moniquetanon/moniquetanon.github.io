@@ -1,9 +1,24 @@
-
-<style>
-@import url('https://fonts.googleapis.com/css?family=Roboto|Taviraj');
-</style>
 body {
 	background-color: #ffffff;
+}
+#wrapper {
+background-color: #ffe2b8;
+width: 100%;
+margin: 0 auto;
+border: 1px black solid;
+padding: 20px;
+}
+header {
+	background-color: #ffed74;
+	border: 1px black solid;
+	padding: 20px;
+	margin: 2em;
+}
+aside {
+	background-color: #FFC675;
+	border: 1px black solid;
+	padding: 20px;
+	margin: 2em;
 }
 .logo {
 	width: 20%;
@@ -18,12 +33,15 @@ body {
 }
 .nav-ul {
 	list-style-type: none;
-	margin: 0;
+	margin: 2em;
 	padding: 0;
 	width: 100%;
 }
 .nav-li {
 	display: inline-block;
+	background-color: #E8c66a;
+	border: 1px black solid;
+	padding: 20px;
 }
 .nav-li a {
 	display: block;
@@ -41,19 +59,24 @@ body {
 	vertical-align: middle;
 	border: 1px solid #000000;
 }
-.h1-studentservices, .h1-relatedlinks, .h1-contactus {
+article {
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
+}
+h1 {
 	font-family: 'Roboto', sans-serif;
 	font-size: 20px;
+	text-transform:uppercase;
+	border-bottom: 2px solid black;
 	margin: 2em;
+	display: inline-block
 }
 .studentservices a, .relatedlinks a, contactus a {
 	text-decoration: none;
 	font-family: 'Taviraj', serif;
-	font-size: 18px;
+	font-size: 15px;
 	line-height: 1.5em;
-}
-.studentservices-section, .relatedlinks-section, .contactus-section {
-	padding: 8px 15px 8px 15px;	
 }
 p {
 	font-family: 'Taviraj', serif;
@@ -61,4 +84,12 @@ p {
 	line-height: 1.5em;
 	margin: 2em;
 }
-
+footer {
+	color: #000000;
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	background-color: #ff957e;
+	border: 1px black solid;
+	padding: 20px;
+	margin: 2em;
+}
