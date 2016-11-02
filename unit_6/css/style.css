@@ -1,0 +1,99 @@
+body {
+	background-color: #ffffff;
+}
+#wrapper {
+	width: 100%;
+	margin: 0 auto;
+	padding: 20px;
+}
+header {
+	background-color: #FFF;
+	padding: 20px;
+	margin: 2em;
+}
+.logo {
+	width: 20%;
+	display: block;
+	padding:	10px 0px 0px 10px;	
+}
+.slogan {
+	display: block;
+	padding: 0px 0px 0px 30px;
+	font-family: palatino, georgia, serif;
+	font-size: 10px;
+}
+.nav-ul {
+	list-style-type: none;
+	margin: 2em;
+	padding: 0;
+	width: 100%;
+}
+.nav-li {
+	display: inline-block;
+	background-color: #FFFFFF;
+	border: 1px black solid;
+	padding: 20px;
+	
+}
+.nav-li a {
+	display: block;
+	padding: 10.5px;	
+	text-decoration: none;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 15.5px;
+	color: ffffff;	
+}
+.main-image {
+	width: 100%;
+	display: inline-block;
+	margin: 0px auto;
+	vertical-align: middle;
+	border: 1px solid #000000;
+}
+#two_column {
+	padding: 20px;
+}
+#left {
+	background-color: #fdf6ec;
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 30%;
+}
+#right {
+	background-color: #fdf6ec;
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+	width: 62%;
+}
+
+.clearfix: after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+h1 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	text-transform:uppercase;
+	border-bottom: 2px solid black;
+	margin: 2em;
+	display: inline-block
+}
+.studentservices a, .relatedlinks a, contactus a {
+	text-decoration: none;
+	font-family: 'Taviraj', serif;
+	font-size: 15px;
+	line-height: 1.5em;
+}
+p {
+	font-family: 'Taviraj', serif;
+	font-size: 18px;
+	line-height: 1.5em;
+	margin: 2em;
+}
