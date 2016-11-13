@@ -1,0 +1,121 @@
+@charset "UTF-8";
+/* CSS Document */
+#container {
+	margin: 15px auto;
+	width: 100%;
+	background-color: #FFFFFF;
+}
+header {
+	background-color: #FFFFFF;
+	padding: 15px;
+}
+.logo {
+	display: inline-block;
+	margin-top: 5px;
+	width: 20%;
+}	
+nav {
+	background: #01512B;
+	margin-top: 10px;
+}
+nav a {
+	display: block;
+	float: left;
+	padding: 10px 15px;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: bold;
+	border-right: 2px solid #fff;
+	font-family: 'Open Sans', sans-serif;
+}
+nav a:hover { 
+  	color: #EDC150; 
+}
+.hero-image {
+	display: block;
+	width: 100%;
+	margin: 0 px auto;
+	overflow: hidden;
+}
+.about-ou {
+	font-family: 'Droid Serif', serif;
+	font-size: 16px;
+	padding: 10px 50px 10px 50px;
+}
+#flex-container {
+	display: -webkit-flex;
+	display:flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+	-webkit-align-items: flex-start;
+	align-items: flex-start;
+	-webkit-justify-content: space-around;
+	justify-content: space-around;
+}
+.three-column {
+	list-style-type: none;
+	padding-left: 0;
+	padding-bottom: 25px;
+}
+.column-p {
+	border-bottom: 3px solid #EDC150;
+}
+section {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+}
+section a {
+	text-decoration: none;
+	color: #000000;
+}
+section a:hover { 
+  	color: blue;
+}
+footer {
+	background-color: #CCCCCC;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: .8em;
+	padding: 5px;
+	clear: both;
+}
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+@media only screen and (max-width: 767px) {
+	header {
+		padding: .5px;
+	}
+	.hero-image {
+		display: block;
+		width: 100%;
+		margin: 0 px auto;
+		overflow: hidden;
+}
+	.logo {
+		display: none;
+	}
+	nav {
+		float: none;
+		padding: 2px 0 5px 2px;
+		margin-top: 2px;
+	}
+	nav a {
+		border-right: none;
+		border-bottom: 2px solid #FFFFFF;
+	}
+	#flex-container {
+		-webkit-flex-direction: column;
+		flex-direction: column;	
+	}
+	.about-ou {
+		padding: 2px;
+	}
+	footer {
+		text-align: left;
+	}
